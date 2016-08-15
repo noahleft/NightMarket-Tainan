@@ -13,7 +13,7 @@ import MapKit
 class ViewController: UIViewController {
 
     var infoModel : InfoModel = InfoModel()
-    
+    let locationManager = CLLocationManager()
     let plistName : String = "NightMarketInfos"
     
     @IBOutlet var mapView: MKMapView!
@@ -28,13 +28,25 @@ class ViewController: UIViewController {
         
         infoModel.loadFromPlist(plistName)
         centerMapOnLocation(initialLocation)
+        mapView.showsUserLocation = true
         
         let infos = infoModel.getInfoArrays()
+        print("# of night markets open today:" + "\(infos.count)")
         for info in infos {
             addMapKitPin(info.locationName!, aLocationName: info.locationDescription!, aLatitude: info.latitude!, aLongitude: info.longitude!)
         }
         
         mapView.delegate = self
+        AskCurrentLocation()
+        
+        let currentDate = NSDate()
+        let formatter = NSDateFormatter()
+        formatter.dateStyle = NSDateFormatterStyle.MediumStyle
+        let date = formatter.stringFromDate(currentDate)
+        dateButton.setTitle(date, forState: UIControlState())
+        
+        tableView.delegate = self
+        tableView.dataSource = self
     }
 
     override func didReceiveMemoryWarning() {
@@ -43,8 +55,8 @@ class ViewController: UIViewController {
     }
 
     
-    let initialLocation = CLLocation(latitude: 23.036061, longitude: 120.1932712)
-    let regionRadius: CLLocationDistance = 10000
+    let initialLocation = CLLocation(latitude: 22.9922521, longitude: 120.1829396)
+    let regionRadius: CLLocationDistance = 1000
     func centerMapOnLocation(location: CLLocation) {
         let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate,
                                                                   regionRadius * 2.0, regionRadius * 2.0)
