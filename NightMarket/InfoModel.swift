@@ -20,8 +20,12 @@ class InfoModel {
         InfoArrays.append(aInfoVO)
     }
     
-    func getInfoArrays() -> [NightMarketVO] {
+    func getCompleteInfoArrays() -> [NightMarketVO] {
         return InfoArrays
+    }
+    
+    func getInfoArrays() -> [NightMarketVO] {
+        return InfoArrays.filter{(x) -> Bool in x.isOpen()}
     }
     
 }
