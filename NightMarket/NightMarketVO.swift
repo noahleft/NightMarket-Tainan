@@ -43,5 +43,31 @@ class NightMarketVO {
         return _result
     }
     
+    func isOpen() -> Bool {
+        let day = NSDate().dayOfWeek()
+        let idx: Int = day!-2<0 ?6:day!-2
+        let schedule = Array(openingTime!.characters)
+        if schedule[idx] == "1" {
+            return true
+        }
+        else {
+            return false
+        }
+    }
+    
+    
 }
 
+
+
+extension NSDate {
+    func dayOfWeek() -> Int? {
+        if
+            let cal: NSCalendar = NSCalendar.currentCalendar() ,
+            let comp: NSDateComponents = cal.components(.Weekday, fromDate: self) {
+            return comp.weekday
+        } else {
+            return nil
+        }
+    }
+}
