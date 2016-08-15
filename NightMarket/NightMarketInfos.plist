@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<string>LocationName</string>
+		<string>Latitude</string>
+		<string>Longitude</string>
+		<string>LocationDescription</string>
+		<string>Type</string>
+		<string>OpeningTime</string>
+		<string>Size</string>
+	</array>
+	<array>
+		<array>
+			<string>西港夜市</string>
+			<real>23.1199649</real>
+			<real>120.2023685</real>
+			<string>西港市場東南側</string>
+			<string>街道</string>
+			<string>0100100</string>
+			<integer>50</integer>
+		</array>
+		<array>
+			<string>佳里夜市</string>
+			<real>23.1573976</real>
+			<real>120.1820995</real>
+			<string>佳里區平等街</string>
+			<string>街道</string>
+			<string>0001000</string>
+			<integer>200</integer>
+		</array>
+		<array>
+			<string>安西夜市</string>
+			<real>23.164853</real>
+			<real>120.167561</real>
+			<string>佳里區佳西路</string>
+			<string>空地</string>
+			<string>0010010</string>
+			<integer>100</integer>
+		</array>
+		<array>
+			<string>義民街夜市</string>
+			<real>23.1614779</real>
+			<real>120.1762985</real>
+			<string>佳里區義民街</string>
+			<string>街道</string>
+			<string>1111111</string>
+			<integer>10</integer>
+		</array>
+		<array>
+			<string>仁愛夜市</string>
+			<real>23.4717756</real>
+			<real>120.4318123</real>
+			<string>佳里區祥和五街</string>
+			<string>空地</string>
+			<string>0100100</string>
+			<integer>10</integer>
+		</array>
+		<array>
+			<string>麻豆夜市</string>
+			<real>23.1847811</real>
+			<real>120.2461739</real>
+			<string>麻豆區三民路</string>
+			<string>街道</string>
+			<string>1000000</string>
+			<integer>200</integer>
+		</array>
+		<array>
+			<string>花園夜市</string>
+			<real>23.0106814</real>
+			<real>120.1996231</real>
+			<string>北區海安路3段</string>
+			<string>空地</string>
+			<string>0001011</string>
+			<integer>400</integer>
+		</array>
+		<array>
+			<string>小北成功夜市</string>
+			<real>23.0111454</real>
+			<real>120.207744</real>
+			<string>北區西門路4段</string>
+			<string>空地</string>
+			<string>0100100</string>
+			<integer>300</integer>
+		</array>
+		<array>
+			<string>武聖夜市</string>
+			<real>23.0040691</real>
+			<real>120.1904877</real>
+			<string>武聖路69巷</string>
+			<string>空地</string>
+			<string>0010010</string>
+			<integer>300</integer>
+		</array>
+		<array>
+			<string>大東夜市</string>
+			<real>22.9826132</real>
+			<real>120.2193412</real>
+			<string>東區林森路1段</string>
+			<string>空地</string>
+			<string>1100100</string>
+			<integer>300</integer>
+		</array>
+		<array>
+			<string>仁和夜市</string>
+			<real>22.9716129</real>
+			<real>120.2328817</real>
+			<string>東區仁和路</string>
+			<string>街道</string>
+			<string>1000000</string>
+			<integer>50</integer>
+		</array>
+		<array>
+			<string>永大夜市</string>
+			<real>23.0189545</real>
+			<real>120.2628467</real>
+			<string>永康區永大路2段 </string>
+			<string>空地</string>
+			<string>1001011</string>
+			<integer>200</integer>
+		</array>
+		<array>
+			<string>鹽行夜市</string>
+			<real>23.041887</real>
+			<real>120.236146</real>
+			<string>永康區鹽行路 </string>
+			<string>街道</string>
+			<string>1000000</string>
+			<integer>200</integer>
+		</array>
+		<array>
+			<string>埔園夜市</string>
+			<real>23.030445</real>
+			<real>120.2591886</real>
+			<string>永康區聖龍街</string>
+			<string>街道</string>
+			<string>0010000</string>
+			<integer>100</integer>
+		</array>
+		<array>
+			<string>中興夜市</string>
+			<real>23.00871</real>
+			<real>120.236499</real>
+			<string>永康區中山東路 </string>
+			<string>街道</string>
+			<string>1000000</string>
+			<integer>50</integer>
+		</array>
+		<array>
+			<string>復華夜市</string>
+			<real>23.009068</real>
+			<real>120.2457479</real>
+			<string>永康區復國一路</string>
+			<string>空地</string>
+			<string>0100100</string>
+			<integer>50</integer>
+		</array>
+		<array>
+			<string>大灣夜市</string>
+			<real>23.0072043</real>
+			<real>120.2676733</real>
+			<string>永康區民族路</string>
+			<string>街道</string>
+			<string>0000001</string>
+			<integer>30</integer>
+		</array>
+		<array>
+			<string>南工夜市</string>
+			<real>23.0146147</real>
+			<real>120.2347541</real>
+			<string>永康區中山南路 </string>
+			<string>空地</string>
+			<string>1111111</string>
+			<integer>10</integer>
+		</array>
+		<array>
+			<string>永康街夜市</string>
+			<real>23.0254673</real>
+			<real>120.2564631</real>
+			<string>永康區永康街 </string>
+			<string>街道</string>
+			<string>0000010</string>
+			<integer>10</integer>
+		</array>
+		<array>
+			<string>十二佃夜市</string>
+			<real>23.066634</real>
+			<real>120.175162</real>
+			<string>安南區公學路4段</string>
+			<string>街道</string>
+			<string>1000000</string>
+			<integer>100</integer>
+		</array>
+		<array>
+			<string>中洲寮夜市</string>
+			<real>23.06300289999999</real>
+			<real>120.2198683</real>
+			<string>安南區長和路2段</string>
+			<string>空地</string>
+			<string>0100010</string>
+			<integer>100</integer>
+		</array>
+		<array>
+			<string>國宅夜市</string>
+			<real>23.0433031</real>
+			<real>120.195504</real>
+			<string>安中路1段702巷</string>
+			<string>街道</string>
+			<string>0010010</string>
+			<integer>100</integer>
+		</array>
+		<array>
+			<string>聖母廟夜市</string>
+			<real>23.0668701</real>
+			<real>120.1273244</real>
+			<string>土城聖母廟</string>
+			<string>廟前</string>
+			<string>0001000</string>
+			<integer>100</integer>
+		</array>
+		<array>
+			<string>本淵寮夜市</string>
+			<real>23.0524709</real>
+			<real>120.1740209</real>
+			<string>安南區本淵街3段</string>
+			<string>街道</string>
+			<string>0000100</string>
+			<integer>100</integer>
+		</array>
+		<array>
+			<string>樺谷夜市</string>
+			<real>23.0261947</real>
+			<real>120.1938286</real>
+			<string>安南區安富街</string>
+			<string>空地</string>
+			<string>0000001</string>
+			<integer>100</integer>
+		</array>
+		<array>
+			<string>同安夜市</string>
+			<real>23.040258</real>
+			<real>120.190043</real>
+			<string>安南區同安街</string>
+			<string>空地</string>
+			<string>0100100</string>
+			<integer>50</integer>
+		</array>
+		<array>
+			<string>海尾寮夜市</string>
+			<real>23.0404575</real>
+			<real>120.1840055</real>
+			<string>海尾寮朝皇宮</string>
+			<string>廟前</string>
+			<string>0000010</string>
+			<integer>10</integer>
+		</array>
+		<array>
+			<string>永華夜市</string>
+			<real>22.9932842</real>
+			<real>120.1578063</real>
+			<string>安平區安億路</string>
+			<string>空地</string>
+			<string>0001011</string>
+			<integer>50</integer>
+		</array>
+		<array>
+			<string>灣裡夜市</string>
+			<real>22.928357</real>
+			<real>120.181769</real>
+			<string>南區灣裡市場</string>
+			<string>市場</string>
+			<string>0010010</string>
+			<integer>50</integer>
+		</array>
+		<array>
+			<string>喜樹夜市</string>
+			<real>22.9414909</real>
+			<real>120.177478</real>
+			<string>喜樹萬皇宮</string>
+			<string>廟前</string>
+			<string>0000100</string>
+			<integer>10</integer>
+		</array>
+		<array>
+			<string>仁德鍾厝夜市</string>
+			<real>22.9703953</real>
+			<real>120.2559902</real>
+			<string>仁德區中清路</string>
+			<string>街道</string>
+			<string>0100000</string>
+			<integer>100</integer>
+		</array>
+		<array>
+			<string>德南夜市</string>
+			<real>22.9490808</real>
+			<real>120.25182015</real>
+			<string>後壁厝三山宮</string>
+			<string>廟前</string>
+			<string>0010010</string>
+			<integer>50</integer>
+		</array>
+		<array>
+<string>保華夜市</string>
+<real>22.9589234</real>
+<real>120.2273986</real>
+<string>牛稠子保華宮</string>
+<string>廟前</string>
+<string>1001010</string>
+<integer>30</integer>
+</array>
+<array>
+<string>太子廟夜市</string>
+<real>22.991427</real>
+<real>120.2563959</real>
+<string>太子廟明直宮</string>
+<string>廟前</string>
+<string>0000100</string>
+<integer>30</integer>
+</array>
+<array>
+<string>大甲夜市</string>
+<real>22.9140548</real>
+<real>120.2168357</real>
+<string>大甲萬龍宮</string>
+<string>廟前</string>
+<string>0000001</string>
+<integer>10</integer>
+</array>
+<array>
+<string>金台南夜市</string>
+<real>22.9389134</real>
+<real>120.2274203</real>
+<string>仁德區文賢路1段</string>
+<string>空地</string>
+<string>0110011</string>
+<integer>0</integer>
+</array>
+<array>
+<string>歸仁夜市</string>
+<real>22.969546</real>
+<real>120.2926014</real>
+<string>歸仁區民族北街</string>
+<string>街道</string>
+<string>0010000</string>
+<integer>200</integer>
+</array>
+<array>
+<string>歸仁市場夜市</string>
+<real>22.9654175</real>
+<real>120.2961136</real>
+<string>歸仁區復興路</string>
+<string>街道</string>
+<string>0001000</string>
+<integer>100</integer>
+</array>
+<array>
+<string>大潭夜市</string>
+<real>22.9100123</real>
+<real>120.2735628</real>
+<string>歸仁區長榮路1段</string>
+<string>空地</string>
+<string>0110000</string>
+<integer>10</integer>
+</array>
+<array>
+<string>關廟夜市</string>
+<real>22.9604625</real>
+<real>120.3296817</real>
+<string>關廟區中央路</string>
+<string>街道</string>
+<string>1000100</string>
+<integer>50</integer>
+</array>
+<array>
+<string>新化民生夜市</string>
+<real>23.0429843</real>
+<real>120.3053627</real>
+<string>新化區民生路底</string>
+<string>空地</string>
+<string>0001000</string>
+<integer>100</integer>
+</array>
+<array>
+<string>聯興夜市</string>
+<real>23.0363782</real>
+<real>120.302878</real>
+<string>新化區正新路</string>
+<string>街道</string>
+<string>0100000</string>
+<integer>50</integer>
+</array>
+<array>
+<string>那拔林夜市</string>
+<real>23.0661849</real>
+<real>120.350477</real>
+<string>那拔林清水宮</string>
+<string>廟前</string>
+<string>0000001</string>
+<integer>10</integer>
+</array>
+<array>
+<string>新市夜市</string>
+<real>23.0768218</real>
+<real>120.2923508</real>
+<string>新市區華興街 </string>
+<string>街道</string>
+<string>0000001</string>
+<integer>100</integer>
+</array>
+<array>
+<string>安定夜市</string>
+<real>23.11999909999999</real>
+<real>120.2368282</real>
+<string>安定保安宮</string>
+<string>廟前</string>
+<string>0010000</string>
+<integer>30</integer>
+</array>
+<array>
+<string>港口夜市</string>
+<real>23.0904306</real>
+<real>120.2331734</real>
+<string>港口慈安宮</string>
+<string>廟前</string>
+<string>1111111</string>
+<integer>10</integer>
+</array>
+<array>
+<string>蘇厝夜市</string>
+<real>23.1295791</real>
+<real>120.2504119</real>
+<string>蘇厝長興宮</string>
+<string>廟前</string>
+<string>1000000</string>
+<integer>10</integer>
+</array>
+<array>
+<string>海寮夜市</string>
+<real>24.440773</real>
+<real>118.096804</real>
+<string>海寮普陀寺</string>
+<string>廟前</string>
+<string>0000100</string>
+<integer>10</integer>
+</array>
+<array>
+<string>善化夜市</string>
+<real>23.1277137</real>
+<real>120.2977193</real>
+<string>善化區建國路</string>
+<string>空地</string>
+<string>0100101</string>
+<integer>100</integer>
+</array>
+<array>
+<string>山上夜市</string>
+<real>23.1019673</real>
+<real>120.3534597</real>
+<string>山上開靈宮</string>
+<string>廟前</string>
+<string>1000000</string>
+<integer>30</integer>
+</array>
+<array>
+<string>大內夜市</string>
+<real>23.1176994</real>
+<real>120.3608667</real>
+<string>大內區內庄</string>
+<string>街道</string>
+<string>0001000</string>
+<integer>30</integer>
+</array>
+<array>
+<string>玉井夜市</string>
+<real>23.123815</real>
+<real>120.4659275</real>
+<string>玉井區民族路</string>
+<string>街道</string>
+<string>0010010</string>
+<integer>100</integer>
+</array>
+<array>
+<string>楠西夜市</string>
+<real>23.178836</real>
+<real>120.4822969</real>
+<string>楠西區民族路</string>
+<string>街道</string>
+<string>0000100</string>
+<integer>50</integer>
+</array>
+<array>
+<string>南化夜市</string>
+<real>23.0422795</real>
+<real>120.4772739</real>
+<string>南化區南化</string>
+<string>街道</string>
+<string>0000001</string>
+<integer>10</integer>
+</array>
+<array>
+<string>三股夜市</string>
+<real>25.0269332</real>
+<real>121.2778598</real>
+<string>三股龍德宮</string>
+<string>廟前</string>
+<string>0100000</string>
+<integer>10</integer>
+</array>
+<array>
+<string>漚汪夜市</string>
+<real>23.199945</real>
+<real>120.1567796</real>
+<string>將軍區漚汪</string>
+<string>街道</string>
+<string>0000100</string>
+<integer>30</integer>
+</array>
+<array>
+<string>馬沙溝夜市</string>
+<real>23.21663999999999</real>
+<real>120.094235</real>
+<string>馬沙溝李聖宮</string>
+<string>廟前</string>
+<string>0000010</string>
+<integer>10</integer>
+</array>
+<array>
+<string>青鯤鯓夜市</string>
+<real>23.1900779</real>
+<real>120.09115</real>
+<string>青鯤鯓朝天宮</string>
+<string>廟前</string>
+<string>0000001</string>
+<integer>10</integer>
+</array>
+<array>
+<string>蚵寮夜市</string>
+<real>23.2864229</real>
+<real>120.1360608</real>
+<string>蚵寮保安宮</string>
+<string>廟前</string>
+<string>1000000</string>
+<integer>30</integer>
+</array>
+<array>
+<string>北門夜市</string>
+<real>23.2692558</real>
+<real>120.1233928</real>
+<string>北門永隆宮</string>
+<string>廟前</string>
+<string>0001000</string>
+<integer>10</integer>
+</array>
+<array>
+<string>三寮灣夜市</string>
+<real>23.23858</real>
+<real>120.1115654</real>
+<string>三寮灣東隆宮</string>
+<string>廟前</string>
+<string>0000100</string>
+<integer>10</integer>
+</array>
+<array>
+<string>學甲夜市</string>
+<real>23.2300851</real>
+<real>120.1794867</real>
+<string>學甲區建國路</string>
+<string>街道</string>
+<string>0010000</string>
+<integer>200</integer>
+</array>
+<array>
+<string>下營夜市</string>
+<real>23.23077769999999</real>
+<real>120.2625154</real>
+<string>下營區中山路2段</string>
+<string>街道</string>
+<string>0000001</string>
+<integer>100</integer>
+</array>
+<array>
+<string>中營夜市</string>
+<real>23.2145648</real>
+<real>120.2759942</real>
+<string>下營區中營</string>
+<string>空地</string>
+<string>0000010</string>
+<integer>30</integer>
+</array>
+<array>
+<string>隆田夜市</string>
+<real>23.1911081</real>
+<real>120.3155849</real>
+<string>官田區三民路</string>
+<string>街道</string>
+<string>0000010</string>
+<integer>100</integer>
+</array>
+<array>
+<string>六甲夜市</string>
+<real>23.2305881</real>
+<real>120.3518005</real>
+<string>六甲區建國街</string>
+<string>街道</string>
+<string>0000100</string>
+<integer>100</integer>
+</array>
+<array>
+<string>柳營夜市</string>
+<real>23.278863</real>
+<real>120.317947</real>
+<string>柳營區成功街</string>
+<string>街道</string>
+<string>0001000</string>
+<integer>100</integer>
+</array>
+<array>
+<string>果毅後夜市</string>
+<real>23.2574605</real>
+<real>120.3664875</real>
+<string>果毅後鎮西宮</string>
+<string>廟前</string>
+<string>1000000</string>
+<integer>10</integer>
+</array>
+<array>
+<string>小腳腿夜市</string>
+<real>23.291352</real>
+<real>120.3658529</real>
+<string>小腳腿明聖殿</string>
+<string>廟前</string>
+<string>1000000</string>
+<integer>10</integer>
+</array>
+<array>
+<string>新營夜市</string>
+<real>23.3044488</real>
+<real>120.3095544</real>
+<string>新營區中華路</string>
+<string>街道</string>
+<string>0000010</string>
+<integer>300</integer>
+</array>
+<array>
+<string>新進夜市</string>
+<real>23.3007906</real>
+<real>120.3056344</real>
+<string>新營區新進路2段</string>
+<string>空地</string>
+<string>0001001</string>
+<integer>30</integer>
+</array>
+<array>
+<string>鹽水夜市</string>
+<real>23.3235134</real>
+<real>120.265843</real>
+<string>鹽水區北門路</string>
+<string>街道</string>
+<string>0010000</string>
+<integer>300</integer>
+</array>
+<array>
+<string>後壁夜市</string>
+<real>23.368385</real>
+<real>120.3674196</real>
+<string>後壁區侯伯</string>
+<string>街道</string>
+<string>0001000</string>
+<integer>30</integer>
+</array>
+<array>
+<string>菁寮夜市</string>
+<real>23.3789756</real>
+<real>120.3358367</real>
+<string>菁寮無米樂老街</string>
+<string>街道</string>
+<string>0000100</string>
+<integer>30</integer>
+</array>
+<array>
+<string>安溪寮夜市</string>
+<real>23.3323033</real>
+<real>120.358399</real>
+<string>安溪寮福安寺</string>
+<string>廟前</string>
+<string>0100000</string>
+<integer>10</integer>
+</array>
+<array>
+<string>上茄苳夜市</string>
+<real>23.34329</real>
+<real>120.435824</real>
+<string>上茄苳顯濟宮</string>
+<string>廟前</string>
+<string>0000001</string>
+<integer>10</integer>
+</array>
+<array>
+<string>東山夜市</string>
+<real>23.325616</real>
+<real>120.4036689</real>
+<string>東山區中興路</string>
+<string>街道</string>
+<string>1001000</string>
+<integer>30</integer>
+</array>
+<array>
+<string>東原夜市</string>
+<real>23.2659204</real>
+<real>120.4466435</real>
+<string>東山區東原</string>
+<string>街道</string>
+<string>1000000</string>
+<integer>10</integer>
+</array>
+<array>
+<string>青山夜市</string>
+<real>22.634367</real>
+<real>120.302635</real>
+<string>東山區青山</string>
+<string>街道</string>
+<string>0010000</string>
+<integer>10</integer>
+</array>
+<array>
+<string>長安路夜市</string>
+<real>23.353441</real>
+<real>120.420059</real>
+<string>白河區長安路</string>
+<string>街道</string>
+<string>0100000</string>
+<integer>50</integer>
+</array>
+<array>
+<string>白河夜市</string>
+<real>23.3508753</real>
+<real>120.412513</real>
+<string>白河區國泰路</string>
+<string>街道</string>
+<string>0000001</string>
+<integer>50</integer>
+</array>
+<array>
+<string>中正路夜市</string>
+<real>23.3494384</real>
+<real>120.4154575</real>
+<string>白河區中正路</string>
+<string>街道</string>
+<string>1111111</string>
+<integer>10</integer>
+</array>
+
+	</array>
+</array>
+</plist>
