@@ -17,6 +17,10 @@ class ViewController: UIViewController {
     let plistName : String = "NightMarketInfos"
     
     @IBOutlet var mapView: MKMapView!
+    @IBOutlet var mapListSegment: UISegmentedControl!
+    @IBOutlet var tableView: UITableView!
+    
+    @IBOutlet var dateButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -54,6 +58,23 @@ class ViewController: UIViewController {
         mapView.addAnnotation(mapKitPin)
         
     }
+
+    @IBAction func touchTopBar(sender: AnyObject) {
+        print("Ask Current Location")
+        AskCurrentLocation()
+    }
+    
+    @IBAction func toggleSegmentControl(sender: UISegmentedControl) {
+        if sender.selectedSegmentIndex == 0 {
+            mapView.hidden = false
+            tableView.hidden = true
+        }
+        else {
+            mapView.hidden = true
+            tableView.hidden = false
+        }
+    }
+    
 
 }
 
