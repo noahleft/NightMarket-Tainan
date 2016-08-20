@@ -88,6 +88,7 @@ extension ViewController: MKMapViewDelegate,CLLocationManagerDelegate {
                 
                 self.mapView.setRegion(region, animated: true)
                 print("Set Location Region at \(region)")
+                initialLocation = CLLocation(latitude: location.coordinate.latitude, longitude: location.coordinate.longitude)
             }
         }
     }

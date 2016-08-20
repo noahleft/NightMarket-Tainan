@@ -29,6 +29,7 @@ class ViewController: UIViewController {
         infoModel.loadFromPlist(plistName)
         centerMapOnLocation(initialLocation)
         mapView.showsUserLocation = true
+        AskCurrentLocation()
         
         let infos = infoModel.getInfoArrays()
         print("# of night markets open today:" + "\(infos.count)")
@@ -37,7 +38,6 @@ class ViewController: UIViewController {
         }
         
         mapView.delegate = self
-        AskCurrentLocation()
         
         let currentDate = NSDate()
         let formatter = NSDateFormatter()
@@ -55,7 +55,7 @@ class ViewController: UIViewController {
     }
 
     
-    let initialLocation = CLLocation(latitude: 22.9922521, longitude: 120.1829396)
+    var initialLocation = CLLocation(latitude: 22.9922521, longitude: 120.1829396)
     let regionRadius: CLLocationDistance = 1000
     func centerMapOnLocation(location: CLLocation) {
         let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate,
