@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import MapKit
 
 extension ViewController: UITableViewDelegate,UITableViewDataSource {
     
@@ -29,7 +30,9 @@ extension ViewController: UITableViewDelegate,UITableViewDataSource {
         
         cell.LocationNameLabel.text = info.locationName
         cell.LocationDescriptionLabel.text = info.locationDescription
-                
+        let mdf = MKDistanceFormatter()
+        cell.LocationDistance.text = mdf.stringFromDistance(info.getDistance(initialLocation)!)
+        
         return cell
     }
     
