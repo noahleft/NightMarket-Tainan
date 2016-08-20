@@ -13,5 +13,6 @@ class LocationTableViewCell: UITableViewCell {
     
     @IBOutlet var LocationNameLabel: UILabel!
     @IBOutlet var LocationDescriptionLabel: UILabel!
+    @IBOutlet weak var LocationDistance: UILabel!
     
 }
