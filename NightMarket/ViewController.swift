@@ -34,7 +34,7 @@ class ViewController: UIViewController {
         let infos = infoModel.getInfoArrays()
         print("# of night markets open today:" + "\(infos.count)")
         for info in infos {
-            addMapKitPin(info.locationName!, aLocationName: info.locationDescription!, aLatitude: info.latitude!, aLongitude: info.longitude!)
+            addMapKitPin(info.locationName!, aLocationName: info.locationDescription!, aLatitude: info.latitude!, aLongitude: info.longitude!, aDistance: info.getDistance(initialLocation)!)
         }
         
         mapView.delegate = self
@@ -63,12 +63,12 @@ class ViewController: UIViewController {
         mapView.setRegion(coordinateRegion, animated: true)
     }
     
-    func addMapKitPin(aTitle: String, aLocationName: String, aLatitude: Double, aLongitude: Double) {
+    func addMapKitPin(aTitle: String, aLocationName: String, aLatitude: Double, aLongitude: Double, aDistance: CLLocationDistance) {
         let aCoordinate = CLLocationCoordinate2D(latitude: aLatitude, longitude: aLongitude)
         let mapKitPin = MapKitPin(aTitle: aTitle, aLocationName: aLocationName, aCoordinate: aCoordinate)
         
         mapView.addAnnotation(mapKitPin)
-        
+        print("\(aTitle)   \(aDistance)")
     }
 
     @IBAction func touchTopBar(sender: AnyObject) {
