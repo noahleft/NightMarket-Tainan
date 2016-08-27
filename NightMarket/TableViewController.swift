@@ -25,7 +25,7 @@ extension ViewController: UITableViewDelegate,UITableViewDataSource {
         let cellIdentifier = "LocationTableViewCell"
         let cell = tableView.dequeueReusableCellWithIdentifier(cellIdentifier) as! LocationTableViewCell
         
-        let infos = infoModel.getInfoArrays()
+        let infos = infoModel.getInfoArrays().sort(sorterForDistance)
         let info = infos[(indexPath as NSIndexPath).row]
         
         cell.LocationNameLabel.text = info.locationName
@@ -34,6 +34,10 @@ extension ViewController: UITableViewDelegate,UITableViewDataSource {
         cell.LocationDistance.text = mdf.stringFromDistance(info.getDistance(initialLocation)!)
         
         return cell
+    }
+    
+    func sorterForDistance(this: NightMarketVO, that: NightMarketVO) -> Bool {
+        return this.getDistance(initialLocation)! < that.getDistance(initialLocation)!
     }
     
 }
